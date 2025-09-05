@@ -26,25 +26,25 @@ const Portfolio: React.FC = () => {
     {
       id: 1,
       title: "Ride To Twenty",
-      category: " Non-Fiction Article",
+      category: " Non-Fiction",
       description: "Becoming The Best Version of Yourself. Published (2024) A memoir/self-help book to overcoming low self-esteem.",
       image: RideToTwenty,
       link: "https://drive.google.com/file/d/1-C9Fv2xl9qmxIEDD4kwskaNRd77ITjOF/view?usp=drivesdk",
       date: "Jan 2024",
       readTime: "8 min read",
-      tags: ["Content", "Storytelling", "Drama"],
+      tags: ["Content", "Book", "Storytelling", "Drama"],
       featured: true
     },
     {
       id: 2,
       title: "Susanna",
-      category: "Fiction Article",
+      category: "Fiction ",
       description: "Manuscript completed. Awaiting release in September, 2025. A short story about new beginnings and unlikely friendship between two ladies.",
       image: SusanImage,
       link: "https://docs.google.com/document/d/1e9pt2z4FBcUtUPLzGDdETydcFtHsItL8uIdoEzKW6cI/edit?usp=drivesdk",
       date: "September 2025",
       readTime: "5 min read",
-      tags: ["Book", "Fiction", "Article"]
+      tags: ["Book", "Fiction", "Storytelling"]
     },
     {
       id: 3,

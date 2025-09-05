@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
                 Creative Writer
               </span>
               <br />
-              <span className="text-gray-200">& Storyteller</span>
+              <span className="text-gray-200">& Editor</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
               Crafting compelling narratives that inspire, engage, and transform ideas into powerful stories that resonate with audiences worldwide.

@@ -12,7 +12,7 @@ const About: React.FC = () => {
               About <span className="text-black">Favour</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A passionate storyteller with over a decade of experience in crafting narratives that captivate, inspire, and drive meaningful connections.
+              A passionate storyteller with experience in crafting narratives that captivate, inspire, and drive meaningful connections.
             </p>
           </div>
 
@@ -27,7 +27,7 @@ const About: React.FC = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">My Creative Journey</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                I am a writer and editor with experience in both creative and faith-based publishing. Over the past few years, I have authored books, contributed to anthologies, and written for blogs and ministries. 
+                I am a writer and editor with experience in both creative and faith-based publishing. Over the past few years, I have authored books, contributed to anthology, and written for blogs and ministries. 
 
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
