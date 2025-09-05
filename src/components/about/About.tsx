@@ -27,18 +27,14 @@ const About: React.FC = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">My Creative Journey</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                My writing journey began with a simple belief: every story has the power to change the world. 
-                From crafting compelling marketing narratives to developing award-winning creative content, 
-                I've dedicated my career to the art of storytelling.
+                I am a writer and editor with experience in both creative and faith-based publishing. Over the past few years, I have authored books, contributed to anthologies, and written for blogs and ministries. 
+
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                With expertise spanning creative writing, content strategy, and brand storytelling, 
-                I help individuals and businesses discover their unique voice and share it with the world 
-                in ways that truly resonate.
+                Alongside writing, I specialize in editing manuscripts, devotionals, and blog content, refining drafts into clear, engaging, and error-free work.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                When I'm not writing, you'll find me exploring new cultures, reading contemporary literature, 
-                or mentoring emerging writers in my community.
+                As an editor, I focus on more than grammar. I bring out the author’s voice, polish ideas for clarity, and ensure the final work connects with its intended audience. My goal is to help writers communicate with excellence and impact.
               </p>
             </div>
           </div>

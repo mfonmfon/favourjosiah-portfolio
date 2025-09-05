@@ -26,53 +26,53 @@ const Portfolio: React.FC = () => {
     {
       id: 1,
       title: "Ride To Twenty",
-      category: "Article",
+      category: " Non-Fiction Article",
       description: "Becoming The Best Version of Yourself. Published (2024) A memoir/self-help book to overcoming low self-esteem.",
       image: RideToTwenty,
       link: "https://drive.google.com/file/d/1-C9Fv2xl9qmxIEDD4kwskaNRd77ITjOF/view?usp=drivesdk",
       date: "Jan 2024",
       readTime: "8 min read",
-      tags: ["Digital", "Storytelling", "Technology"],
+      tags: ["Content", "Storytelling", "Drama"],
       featured: true
     },
     {
       id: 2,
       title: "Susanna",
-      category: "Poetry",
+      category: "Fiction Article",
       description: "Manuscript completed. Awaiting release in September, 2025. A short story about new beginnings and unlikely friendship between two ladies.",
       image: SusanImage,
       link: "https://docs.google.com/document/d/1e9pt2z4FBcUtUPLzGDdETydcFtHsItL8uIdoEzKW6cI/edit?usp=drivesdk",
       date: "September 2025",
       readTime: "5 min read",
-      tags: ["Poetry", "Nature", "Emotions"]
+      tags: ["Book", "Fiction", "Article"]
     },
     {
       id: 3,
       title: "Take Your Flowers",
-      category: "Marketing",
+      category: "Non-Fiction Article",
       description: "You’re a bit unkind to yourself, don't you think? Yes, you. You beat yourself up too much. You rush past your victories and stare too long at your failures. You forget to pause and breathe, to",
       image: TakeYourFlowersImage,
       link: "https://favourjosiah.substack.com/p/take-your-flowers",
       date: "Feb 2024",
       readTime: "12 min read",
-      tags: ["Branding", "Marketing", "Business"],
+      tags: ["Storytelling", "Content", "Article"],
       featured: true
     },
     {
       id: 4,
       title: "Twists, Turns, and the In-Betweens.",
-      category: "Fiction",
+      category: "Non-Fiction Article",
       description: "That unpredictable, sometimes painful, often confusing, but deeply necessary middle..",
       image: "https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg",
       link: "https://favourjosiah.substack.com/p/twists-turns-and-the-in-betweens",
       date: "June 2025",
       readTime: "15 min read",
-      tags: ["Fiction", "Drama", "Psychology"]
+      tags: ["Non-Fiction",  "Article", "Drama", "Storytelling"]
     },
     {
       id: 5,
       title: "TEE UNFILTERED",
-      category: "Article",
+      category: "Fiction Article",
       description: "Tee Unfiltered is a behind-the-scenes seat into the life of Toyo-Abasi, a Christian content creator with a growing platform. Behind her uploads and polished captions, there’s a quiet wrestle which has her longing for something.",
       image: TeeFlirtImage,
       link: "https://favourjosiah.substack.com/p/tee-unfiltered-fc5",
@@ -83,17 +83,17 @@ const Portfolio: React.FC = () => {
     {
       id: 6,
       title: "Time Does Not Heal All Wounds",
-      category: "Poetry",
+      category: "Non-Fiction Article",
       description: "I don't believe that simply waiting for time to pass heals our wounds..",
       image: TimeDoesNotHealAllWoundsImage,
       link: "https://favourjosiah.substack.com/p/time-does-not-heal-all-wounds",
       date: "Oct 2023",
       readTime: "6 min read",
-      tags: ["Poetry", "Urban", "Travel"]
+      tags: ["Article", "Content"]
     }
   ];
 
-  const categories = ['All', 'Article', 'Poetry', 'Marketing', 'Fiction'];
+  const categories = ['All', 'Article', 'Storytelling', 'Content', 'Fiction'];
 
   const filteredItems = activeFilter === 'All' 
     ? portfolioItems 
