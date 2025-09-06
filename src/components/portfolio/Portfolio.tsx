@@ -5,6 +5,7 @@ import TakeYourFlowersImage from '../../asset/cardsimae/TakeYourFlowersImage.web
 import TimeDoesNotHealAllWoundsImage from '../../asset/cardsimae/TimeDoesNotHeal.webp'
 import RideToTwenty from '../../asset/cardsimae/RideToTwenty.jpg'
 import SusanImage from '../../asset/cardsimae/SusanImage.jpg'
+import BabiesForLunch from '../../asset/cardsimae/BabbiesForLush.jpg'
 
 interface PortfolioItem {
   id: number;
@@ -82,6 +83,17 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 6,
+      title: "Babies For Lunch",
+      category: "Fiction ",
+      description: "Featured Contribution for the 'Babies For Lunch' anthology. Story Title: PREY. Get anthology here Get BABIES FOR LUNCH by Akaniyene Akpan on Selar  https://selar.com/141404 ",
+      image: BabiesForLunch,
+      link: "https://selar.com/141404",
+      date: "Jan 2024",
+      readTime: "10 min read",
+      tags: ["Content", "Drama", "Storytelling"]
+    },
+    {
+      id: 7,
       title: "Time Does Not Heal All Wounds",
       category: "Non-Fiction Article",
       description: "I don't believe that simply waiting for time to pass heals our wounds..",
