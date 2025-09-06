@@ -28,7 +28,7 @@ const Header: React.FC = () => {
     }`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-black">
+          <div className="text-lg md:text-xl font-bold text-black">
             Favour Josiah
           </div>
 
